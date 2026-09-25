@@ -1,0 +1,28 @@
+<svg width="1400" height="360" viewBox="0 0 1400 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="360" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#050B16"/>
+    <stop offset="0.52" stop-color="#0B1630"/>
+    <stop offset="1" stop-color="#071A24"/>
+  </linearGradient>
+  <linearGradient id="cyan" x1="420" y1="80" x2="1020" y2="275" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#22D3EE"/><stop offset="0.5" stop-color="#38BDF8"/><stop offset="1" stop-color="#A5F3FC"/>
+  </linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" stroke="#1E3A5F" stroke-opacity=".24"/></pattern>
+</defs>
+<rect width="1400" height="360" rx="18" fill="url(#bg)"/>
+<rect width="1400" height="360" rx="18" fill="url(#grid)"/>
+<path d="M0 290C210 210 270 325 480 255C690 185 764 104 950 185C1130 264 1210 122 1400 142" stroke="#0EA5E9" stroke-opacity=".22" stroke-width="2"/>
+<circle cx="1170" cy="90" r="155" fill="#06B6D4" fill-opacity=".06"/>
+<circle cx="1170" cy="90" r="110" stroke="#38BDF8" stroke-opacity=".18"/>
+<g font-family="monospace">
+  <text x="70" y="74" fill="#67E8F9" font-size="18">&gt;_ HIGOR SYSTEM</text>
+  <text x="70" y="151" fill="url(#cyan)" font-size="56" font-weight="700" filter="url(#glow)">STATUS: ONLINE</text>
+  <text x="74" y="202" fill="#BAE6FD" font-size="25">Transformando aprendizado em código.</text>
+  <text x="74" y="270" fill="#94A3B8" font-size="15">DISCIPLINA   •   APRENDIZADO   •   EVOLUÇÃO   •   RESULTADOS</text>
+  <text x="1210" y="255" fill="#38BDF8" font-size="20">&gt;_</text>
+  <text x="1210" y="282" fill="#22D3EE" font-size="14">build.future()</text>
+</g>
+<rect x="1" y="1" width="1398" height="358" rx="18" stroke="#164E63" stroke-width="2"/>
+</svg>
