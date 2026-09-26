@@ -1,0 +1,16 @@
+[
+  {
+    "name": "UNINASSAU",
+    "emoji": "📘",
+    "url": "https://github.com/HigorADS/UNINASSAU",
+    "description": "Atividade prática com comandos essenciais de Git e GitHub, versionamento e documentação.",
+    "tags": ["Git", "GitHub", "Documentação"]
+  },
+  {
+    "name": "HigorADS",
+    "emoji": "🦊",
+    "url": "https://github.com/HigorADS/HigorADS",
+    "description": "Meu espaço de perfil e portfólio para registrar evolução, estudos e projetos.",
+    "tags": ["Profile", "README", "Portfólio"]
+  }
+]

@@ -1,0 +1,29 @@
+name: Update selected projects
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - projects.json
+      - scripts/generate_readme.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+      - name: Generate selected projects section
+        run: python3 scripts/generate_readme.py
+      - name: Commit generated README
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git diff --cached --quiet && exit 0
+          git commit -m 'chore: atualizar projetos selecionados'
+          git push

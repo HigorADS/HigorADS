@@ -38,22 +38,23 @@ Sou estudante de **Análise e Desenvolvimento de Sistemas** e gosto de transform
   <img src="./assets/learning.svg" alt="Ícones e descrições de Java e JavaScript" width="100%" />
 </div>
 
+<!-- SELECTED_PROJECTS:START -->
 ## 📌 Projetos selecionados
-
 <table>
   <tr>
-    <td width="50%">
+    <td width="50%" valign="top">
       <h3><a href="https://github.com/HigorADS/UNINASSAU">📘 UNINASSAU</a></h3>
-      <p>Atividade prática com comandos essenciais de <b>Git</b> e <b>GitHub</b>, versionamento e documentação.</p>
+      <p>Atividade prática com comandos essenciais de Git e GitHub, versionamento e documentação.</p>
       <p><code>Git</code> <code>GitHub</code> <code>Documentação</code></p>
     </td>
-    <td width="50%">
+    <td width="50%" valign="top">
       <h3><a href="https://github.com/HigorADS/HigorADS">🦊 HigorADS</a></h3>
       <p>Meu espaço de perfil e portfólio para registrar evolução, estudos e projetos.</p>
       <p><code>Profile</code> <code>README</code> <code>Portfólio</code></p>
     </td>
   </tr>
 </table>
+<!-- SELECTED_PROJECTS:END -->
 
 ## 🌱 Próximos passos
 
