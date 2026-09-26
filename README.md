@@ -48,7 +48,7 @@ Sou estudante de **Análise e Desenvolvimento de Sistemas** e gosto de transform
       <p><code>Git</code> <code>GitHub</code> <code>Documentação</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/HigorADS/HigorADS">🦊 HigorADS</a></h3>
+      <h3><a href="https://github.com/HigorADS/PORTFOLIO">🦊 PORTFÓLIO</a></h3>
       <p>Meu espaço de perfil e portfólio para registrar evolução, estudos e projetos.</p>
       <p><code>Profile</code> <code>README</code> <code>Portfólio</code></p>
     </td>
